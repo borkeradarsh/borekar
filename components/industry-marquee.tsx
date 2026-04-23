@@ -38,7 +38,7 @@ export function IndustryMarquee() {
         className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-background to-transparent"
       />
 
-      <div className="flex w-max animate-marquee items-center gap-10">
+      <div className="flex w-max max-w-none animate-marquee items-center gap-10 will-change-transform">
         {items.map((label, i) => (
           <div
             key={`${label}-${i}`}

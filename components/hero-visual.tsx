@@ -12,7 +12,7 @@ const maxBar = Math.max(...weekData)
 
 export function HeroVisual() {
   return (
-    <div className="relative mx-auto w-full max-w-5xl">
+    <div className="relative mx-auto w-full max-w-5xl overflow-x-clip">
       {/* ambient glow */}
       <div
         aria-hidden
