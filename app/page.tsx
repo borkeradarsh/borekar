@@ -212,7 +212,7 @@ export default function HomePage() {
             <dl className="mt-8 grid grid-cols-3 gap-6">
               <Stat label="Load time" value="0.9s" />
               <Stat label="Architecture" value="Next.js" />
-              <Stat label="Checkout UI" value="Frictionless" />
+              <Stat label="Checkout UI" value="2 step" />
             </dl>
 
             <a
